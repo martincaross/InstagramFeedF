@@ -1,0 +1,101 @@
+* {
+  font-family: verdana;
+  color: black;
+  margin: 0;
+  /* border: 1px dashed red;
+  min-height: 10px; */
+}
+
+body {
+  background: black;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: #ddd;
+}
+
+.title {
+  background-color: white; /*Este es del div del titulo*/
+  width: 100%;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+#blocks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+  width: 400px;
+  padding: 0px;
+  background-color: #ddd;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.username {
+  font-weight: bold;
+  font-size: 10px;
+  margin-top: 5px;
+  background-color: white;
+  margin-left: 7px;
+}
+
+.date {
+  font-size: 11px;
+  padding: 5px;
+  color: lightgray;
+}
+
+.one,
+.two,
+.three,
+.four,
+.five,
+.six,
+.seven,
+.eight {
+  background: white;
+  width: 400px;
+  margin-bottom: 40px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+}
+
+.imagen img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+p {
+  font-size: 11px;
+  padding: 5px;
+  padding-left: 7px;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 5px;
+}
+
+strong {
+  font-size: 10px;
+}
